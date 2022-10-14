@@ -1,4 +1,8 @@
 import java.util.Stack;
+/*
+剑指 Offer II 027. 回文链表
+https://leetcode.cn/problems/aMhZSa/
+ */
 
 public class Exr01_IsPalindromeList {
     public static class Node {
@@ -78,7 +82,7 @@ public class Exr01_IsPalindromeList {
         }
         temp = p1;
         p2 = head;
-        while (p1.next != null && p2.next.next != null){
+        while (p1 != null && p2.next != null){
             if (p1.value != p2.value){
                 return false;
             }
