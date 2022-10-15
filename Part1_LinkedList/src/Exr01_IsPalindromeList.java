@@ -1,6 +1,6 @@
 import java.util.Stack;
 /*
-剑指 Offer II 027. 回文链表
+1. 剑指 Offer II 027. 回文链表
 https://leetcode.cn/problems/aMhZSa/
  */
 

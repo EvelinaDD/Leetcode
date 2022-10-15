@@ -1,3 +1,6 @@
+/*
+    2. （非LC) 将单向链表按某值划分为左边小，中间相等，右边大的形式
+*/
 public class Exr02_LinkedListPartition {
     public static class Node {
         public int value;
